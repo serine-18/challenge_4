@@ -22,6 +22,7 @@
             <form>
                
                 <label for="email">Email address</label>
+                 <p id="invalid"> Valid email required </p>
                 <input type="email" id="email" name="email" placeholder="email@company.com" required>
                 <input type="button"  id="button" value=" Subscribe to monthly newsletter" onclick="func()">
             </form>
@@ -36,12 +37,14 @@
      
         function func(){
              const email = document.querySelector("#email");
+             const invalid=document.querySelector("#invalid");
             if(email.value.match(mailformat)){
                 window.location.assign ("success.html")
             }
             else{
                 email.style.borderColor="red";
                 email.style.color="red";
+                invalid.style.display="block";
                 
             }
 
