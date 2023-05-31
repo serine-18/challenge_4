@@ -1,0 +1,65 @@
+@font-face{
+    font-family: myfont;
+    src: url(./assets/fonts/Roboto-Regular.ttf);
+}
+
+
+*{
+    box-sizing: border-box;
+    
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   font-family: myfont;
+   
+    background-color: hsl(235, 18%, 26%);
+    min-height: 100vh;
+}
+.container1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 300px;
+    width: 300px;
+ background-color: white;
+ font-size: 9px;
+ 
+ border-radius: 15px;
+ padding: 40px;
+ font-family: myfont;
+}
+P{
+    line-height: 14px;
+    font-weight: 500;
+}
+
+h1{
+   font-size: 34px;
+   line-height: 35px;
+   position: relative;
+   top: 5px;
+}
+img{
+    position: relative;
+    right: 90px;
+    width:  35px;
+    top: 13px;
+    
+}
+p{
+  position: relative;
+  bottom: 13px;  
+}
+#button1{
+    background-color:  hsl(234, 29%, 20%);
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+    width: 210px;
+    font-size: 11px;
+    margin-bottom : 25px;
+    font-weight: 600;
+}

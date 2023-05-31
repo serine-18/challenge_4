@@ -1,0 +1,79 @@
+  
+@font-face{
+    font-family: myfont;
+    src: url(./assets/fonts/Roboto-Regular.ttf);
+}
+
+
+*{
+    
+    box-sizing: border-box;
+}  
+  
+  body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   font-family: myfont;
+   
+    background-color: hsl(235, 18%, 26%);
+    min-height: 100vh;
+  }
+
+  .container{
+    display: flex;
+    height: 430px;
+    width: 650px;
+    padding: 16px;
+    background-color: white;
+    border-radius: 20px;
+  }
+  .right_side{
+    font-size: 12px;
+    font-weight: 500;
+    width: 370px;
+    padding: 20px;
+    color: hsl(234, 29%, 20%);
+  }
+  p{
+    font-size: 11px;
+  }
+  h1{
+    font-size: 35px;
+    color: hsl(234, 29%, 20%);
+  }
+  ul{
+    color: hsl(234, 29%, 20%);
+    list-style-image: url('icon-success.svg' );
+  }
+ li{
+    margin: 9px;
+    font-weight: 500;
+    font-size: 11px;
+ }
+form{
+    display: flex;
+    flex-direction: column;
+    width: 290px;
+}
+ input{
+    padding: 10px;
+    margin: 10px;
+    border-radius: 5px;
+    outline: none;
+    border: 1px solid  hsl(231, 7%, 60%);
+ }
+#button{
+   background-color: hsl(234, 29%, 20%);
+   color: white;
+   font-size: 11px;
+   padding: 11px;
+   font-weight: 600;
+ }
+label{
+    color:hsl(234, 29%, 20%); 
+    font-size: 9px;
+    font-weight: 600;
+}
+
+
